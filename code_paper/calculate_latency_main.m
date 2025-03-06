@@ -9,7 +9,7 @@ same_binsize = true;
 bin_size_val = 0.1; % the original bin size was 0.1
 bin_size_spks = 0.025; 
 classify_time_before =1.5; 
-baseline_period = [-1,-0.8];
+baseline_period = [-1,-0.9];
 
 if (mod(classify_time_before,bin_size_val) == 0)
 classify_time_before = classify_time_before + bin_size_val/2;
